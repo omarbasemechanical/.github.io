@@ -3,191 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Omar Basem - Junior Mechanical Design Engineer</title>
+    <title>Omar Basem Abdulsalam - Mechanical Design Engineer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="nav">
-            <div class="nav__brand">
-                <h2>Omar Basem</h2>
-                <p>Junior Mechanical Design Engineer</p>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="brand-text">Omar Basem</span>
             </div>
-            <ul class="nav__menu">
-                <li><a href="#about" class="nav__link">About</a></li>
-                <li><a href="#projects" class="nav__link">Projects</a></li>
-                <li><a href="#skills" class="nav__link">Skills</a></li>
-                <li><a href="#leadership" class="nav__link">Leadership</a></li>
-                <li><a href="#education" class="nav__link">Education</a></li>
-                <li><a href="#contact" class="nav__link">Contact</a></li>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#leadership" class="nav-link">Leadership</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <button class="nav__toggle" aria-label="Toggle navigation menu">
+            <div class="hamburger" id="hamburger">
                 <span></span>
                 <span></span>
                 <span></span>
-            </button>
-        </nav>
-    </header>
+            </div>
+        </div>
+    </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section id="home" class="hero">
         <div class="container">
-            <div class="hero__content">
-                <div class="hero__text">
-                    <h1>Omar Basem</h1>
-                    <h2 class="hero__title">Junior Mechanical Design Engineer</h2>
-                    <p class="hero__description">
-                    Final year Mechatronics Technology student passionate about mechanical systems and design.
-                    Specialized in SolidWorks, Fusion 360, with basic experience in AutoCAD, DraftSight, and 3DExperience package.
-                    Experienced in robotics, machining, rapid prototyping (laser cutting, 3D printing, pipe cutting, milling, turning).
-                    Minor experience in FEA & CFD with case studies and real-world applications ensuring designs are functional and manufacturable.
-                    </p>
-                    <div class="hero__contact">
-                        <div class="contact-item">
-                            <strong>Email:</strong> Omarbasemm1@gmail.com
-                        </div>
-                        <div class="contact-item">
-                            <strong>Phone:</strong> +20 122 988 6552
-                        </div>
-                        <div class="contact-item">
-                            <strong>Location:</strong> Port Said, Egypt
-                        </div>
-                    </div>
-                    <a href="#contact" class="btn btn--primary btn--lg">Get In Touch</a>
+            <div class="hero-content">
+                <h1 class="hero-title">Omar Basem Abdulsalam</h1>
+                <h2 class="hero-subtitle">Mechanical Design Engineer</h2>
+                <p class="hero-description">A driven Mechatronics Engineering student at Suez Canal University (2022–2026) with a focus on mechanical design, automation, and robotics. Seeking to leverage hands-on experience in CAD, CAM, Automation and robotics to contribute to innovative engineering solutions.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn--primary">View Projects</a>
+                    <a href="#contact" class="btn btn--outline">Get In Touch</a>
                 </div>
-                <div class="hero__image">
-                    <div class="profile-placeholder">
-                        <div class="profile-icon">👨‍💼</div>
-                        <p></p>
-                    </div>
+                <div class="hero-social">
+                    <a href="https://www.linkedin.com/in/omarbasemm/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:omarbasemm1@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+201229886552" class="social-link">
+                        <i class="fas fa-phone"></i>
+                    </a>
                 </div>
             </div>
+        </div>
+        <div class="hero-decoration">
+            <div class="gear gear-1"></div>
+            <div class="gear gear-2"></div>
+            <div class="gear gear-3"></div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="section about">
+    <section id="about" class="about">
         <div class="container">
-            <h2 class="section__title">About Me</h2>
-            <div class="about__content">
-                <div class="about__specializations">
-                    <h3>Key Specializations</h3>
-                    <ul class="specializations-list">
-                        <li>Product Development & Design</li>
-                        <li>Mobile UGV Robots</li>
-                        <li>Mobile Underwater Robots</li>
-                        <li>Automotive Components</li>
-                        <li>Manufacturing Optimization</li>
-                        <li>Cross-functional Team Leadership</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="section projects">
-        <div class="container">
-            <h2 class="section__title">Featured Projects</h2>
-            <div class="projects__grid">
-                <div class="project-card">
-                    <div class="project-card__header">
-                        <h3>Electric Vehicle Steering System</h3>
-                        <div class="project-card__meta">
-                            <span class="duration">2 months</span>
-                            <span class="team-size">5 engineers</span>
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a passionate Mechatronics Engineering student with extensive experience in mechanical design, automation, and robotics. Currently pursuing my Bachelor's degree at the Egyptian Chinese College of Applied Technology, Suez Canal University, I specialize in CAD design, manufacturing processes, and embedded systems.</p>
+                    <p>My expertise spans across marine engineering, automotive systems, medical devices, and robotics. I have successfully completed multiple SOLIDWORKS certifications and have hands-on experience with various CAD software, programming languages, and manufacturing technologies.</p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-cogs"></i>
+                            <span>Mechanical Design Expert</span>
                         </div>
-                    </div>
-                    <div class="project-card__body">
-                        <p>Planned, designed, and manufactured steering systems for racing cars including Fromula Student and EVER</p>
-                        <div class="project-card__technologies">
-                            <span class="tech-tag">SolidWorks</span>
-                            <span class="tech-tag">ANSYS Fluent</span>
-                            <span class="tech-tag">MATLAB</span>
+                        <div class="highlight-item">
+                            <i class="fas fa-robot"></i>
+                            <span>Automation & Robotics</span>
                         </div>
-                        <ul class="project-card__achievements">
-                            <li>Reduced material losses by 25%</li>
-                            <li>Optimized for manufacturing cost</li>
-                            <li>Optimized carbon footprint for enviroment</li>
-                        </ul>
-                    </div>
-                    <div class="project-card__image">
-                        <div class="image-placeholder">📊 CAD Model Preview</div>
+                        <div class="highlight-item">
+                            <i class="fas fa-industry"></i>
+                            <span>Manufacturing & Machining</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-ship"></i>
+                            <span>Marine Engineering</span>
+                        </div>
                     </div>
                 </div>
-
-                <div class="project-card">
-                    <div class="project-card__header">
-                        <h3>Smart Wheelchair</h3>
-                        <div class="project-card__meta">
-                            <span class="duration">2 months</span>
-                            <span class="team-size">4 engineers</span>
-                        </div>
-                    </div>
-                    <div class="project-card__body">
-                        <p>Developed </p>
-                        <div class="project-card__technologies">
-                            <span class="tech-tag">SOLIDWORKS</span>
-                            <span class="tech-tag">Tolerance Analysis</span>
-                        </div>
-                        <ul class="project-card__achievements">
-                            <li>30% size reduction</li>
-                            <li>IP67 water resistance</li>
-                        </ul>
-                    </div>
-                    <div class="project-card__image">
-                        <div class="image-placeholder">📱 Technical Drawing</div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-card__header">
-                        <h3>Industrial Robot Gripper</h3>
-                        <div class="project-card__meta">
-                            <span class="duration">6 months</span>
-                            <span class="team-size">3 engineers</span>
-                        </div>
-                    </div>
-                    <div class="project-card__body">
-                        <p>Engineered adaptive gripper system for automated manufacturing line with force feedback</p>
-                        <div class="project-card__technologies">
-                            <span class="tech-tag">Fusion 360</span>
-                            <span class="tech-tag">Arduino</span>
-                            <span class="tech-tag">Python</span>
-                        </div>
-                        <ul class="project-card__achievements">
-                            <li>95% grip success rate</li>
-                            <li>$50K cost savings annually</li>
-                        </ul>
-                    </div>
-                    <div class="project-card__image">
-                        <div class="image-placeholder">🤖 Prototype Image</div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-card__header">
-                        <h3>Medical Device Enclosure</h3>
-                        <div class="project-card__meta">
-                            <span class="duration">10 months</span>
-                            <span class="team-size">6 engineers</span>
-                        </div>
-                    </div>
-                    <div class="project-card__body">
-                        <p>Designed FDA-compliant housing for portable diagnostic equipment with strict biocompatibility requirements</p>
-                        <div class="project-card__technologies">
-                            <span class="tech-tag">SolidWorks</span>
-                            <span class="tech-tag">FEA</span>
-                            <span class="tech-tag">ISO 13485</span>
-                        </div>
-                        <ul class="project-card__achievements">
-                            <li>FDA 510(k) clearance</li>
-                            <li>40% weight reduction</li>
-                        </ul>
-                    </div>
-                    <div class="project-card__image">
-                        <div class="image-placeholder">🏥 Design Render</div>
+                <div class="about-photo">
+                    <div class="photo-placeholder">
+                        <i class="fas fa-user"></i>
                     </div>
                 </div>
             </div>
@@ -195,211 +100,464 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="section skills">
+    <section id="skills" class="skills">
         <div class="container">
-            <h2 class="section__title">Technical Skills</h2>
-            <div class="skills__grid">
+            <h2 class="section-title">Skills & Expertise</h2>
+            
+            <div class="skills-grid">
                 <div class="skill-category">
                     <h3>CAD Software</h3>
-                    <div class="skill-item">
-                        <span class="skill-name">SolidWorks</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-level="95"></div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">SOLIDWORKS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                            <span class="skill-level">95%</span>
                         </div>
-                        <span class="skill-level">95%</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">AutoCAD</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-level="90"></div>
+                        <div class="skill-item">
+                            <span class="skill-name">Fusion 360</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                            <span class="skill-level">85%</span>
                         </div>
-                        <span class="skill-level">90%</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Fusion 360</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-level="85"></div>
+                        <div class="skill-item">
+                            <span class="skill-name">AutoCAD</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                            <span class="skill-level">90%</span>
                         </div>
-                        <span class="skill-level">85%</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">CATIA</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-level="80"></div>
+                        <div class="skill-item">
+                            <span class="skill-name">Rhinoceros 8</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                            <span class="skill-level">75%</span>
                         </div>
-                        <span class="skill-level">80%</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Inventor</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-level="75"></div>
-                        </div>
-                        <span class="skill-level">75%</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Engineering Tools</h3>
-                    <div class="skill-item">
-                        <span class="skill-name">ANSYS</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-level="90"></div>
-                        </div>
-                        <span class="skill-level">90%</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">MATLAB</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-level="85"></div>
-                        </div>
-                        <span class="skill-level">85%</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Simulink</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-level="80"></div>
-                        </div>
-                        <span class="skill-level">80%</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">LabVIEW</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-level="75"></div>
-                        </div>
-                        <span class="skill-level">75%</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Manufacturing</h3>
-                    <div class="skill-item">
-                        <span class="skill-name">3D Printing</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-level="95"></div>
-                        </div>
-                        <span class="skill-level">95%</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">CNC Machining</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-level="90"></div>
-                        </div>
-                        <span class="skill-level">90%</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Injection Molding</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-level="85"></div>
-                        </div>
-                        <span class="skill-level">85%</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Sheet Metal</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-level="80"></div>
-                        </div>
-                        <span class="skill-level">80%</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
                     <h3>Programming</h3>
-                    <div class="skill-item">
-                        <span class="skill-name">Arduino</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-level="85"></div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">C Programming</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                            <span class="skill-level">85%</span>
                         </div>
-                        <span class="skill-level">85%</span>
+                        <div class="skill-item">
+                            <span class="skill-name">MATLAB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                            <span class="skill-level">80%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PLC Programming</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                            <span class="skill-level">75%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">AVR Interfacing</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                            <span class="skill-level">70%</span>
+                        </div>
                     </div>
-                    <div class="skill-item">
-                        <span class="skill-name">Python</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-level="80"></div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Manufacturing</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Machining</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                            <span class="skill-level">85%</span>
                         </div>
-                        <span class="skill-level">80%</span>
+                        <div class="skill-item">
+                            <span class="skill-name">3D Printing</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                            <span class="skill-level">90%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CNC</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                            <span class="skill-level">80%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Laser Cutting</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                            <span class="skill-level">75%</span>
+                        </div>
                     </div>
-                    <div class="skill-item">
-                        <span class="skill-name">PLC Programming</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-level="75"></div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Analysis & Control</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">SOLIDWORKS CFD</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                            <span class="skill-level">80%</span>
                         </div>
-                        <span class="skill-level">75%</span>
-                    </div>
-                    <div class="skill-item">
-                        <span class="skill-name">C++</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-level="70"></div>
+                        <div class="skill-item">
+                            <span class="skill-name">FEA</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                            <span class="skill-level">75%</span>
                         </div>
-                        <span class="skill-level">70%</span>
+                        <div class="skill-item">
+                            <span class="skill-name">Embedded Systems</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                            <span class="skill-level">80%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Control Systems</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                            <span class="skill-level">75%</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="certifications">
                 <h3>Certifications</h3>
-                <div class="certifications__grid">
-                    <div class="cert-badge">Professional Engineer (PE) - California</div>
-                    <div class="cert-badge">Certified SolidWorks Professional (CSWP)</div>
-                    <div class="cert-badge">Six Sigma Black Belt</div>
-                    <div class="cert-badge">Project Management Professional (PMP)</div>
+                <div class="cert-grid">
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>SOLIDWORKS Associate - CAD Design</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>SOLIDWORKS Associate - Sustainability</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>SOLIDWORKS Associate - 3D Mold Creator</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>SOLIDWORKS Associate - Additive Manufacturing</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>DraftSight Associate - 2D Design</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>Autodesk CAD/CAM/CAE Specialization</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="marine">Marine Engineering</button>
+                <button class="filter-btn" data-filter="automotive">Automotive</button>
+                <button class="filter-btn" data-filter="robotics">Robotics</button>
+                <button class="filter-btn" data-filter="medical">Medical Devices</button>
+                <button class="filter-btn" data-filter="manufacturing">Manufacturing</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card" data-category="marine">
+                    <div class="project-image">
+                        <i class="fas fa-ship"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Marine Rescue Boat Design</h3>
+                        <p class="project-category">Marine Engineering</p>
+                        <p>Currently designing, testing and manufacturing marine units, specialized in ship design working on motorboats for rescuing people in the sea, designed an ISO 6185-3 standardized C category boat.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">SOLIDWORKS</span>
+                            <span class="tech-tag">DELFTship</span>
+                            <span class="tech-tag">ISO 6185-3</span>
+                        </div>
+                        <div class="project-achievements">
+                            <div class="achievement">✓ ISO 6185-3 standardized design</div>
+                            <div class="achievement">✓ C category certification</div>
+                            <div class="achievement">✓ Rescue operations optimization</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="medical">
+                    <div class="project-image">
+                        <i class="fas fa-wheelchair"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Smart Wheelchair Chassis</h3>
+                        <p class="project-category">Medical Devices</p>
+                        <p>Designed wheelchair chassis using SOLIDWORKS Weldments ensuring precise, comfortable and ergonomic experience. Included R&D for stair climbing mechanism for maximum 20 deg incline.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">SOLIDWORKS</span>
+                            <span class="tech-tag">Weldments</span>
+                            <span class="tech-tag">Ergonomic Design</span>
+                        </div>
+                        <div class="project-achievements">
+                            <div class="achievement">✓ 15% weight reduction</div>
+                            <div class="achievement">✓ Stair climbing capability</div>
+                            <div class="achievement">✓ Ergonomic optimization</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="automotive">
+                    <div class="project-image">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Formula Student Steering System</h3>
+                        <p class="project-category">Automotive</p>
+                        <p>Designed Ackermann geometry based steering system for FSUK 2025 concept track design. Calculated steering forces and optimized geometry for racing performance.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">SOLIDWORKS</span>
+                            <span class="tech-tag">Ackermann Geometry</span>
+                            <span class="tech-tag">Vehicle Dynamics</span>
+                        </div>
+                        <div class="project-achievements">
+                            <div class="achievement">✓ Optimized steering geometry</div>
+                            <div class="achievement">✓ Reduced steering effort</div>
+                            <div class="achievement">✓ Competition ready design</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="robotics">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Remotely Operated Vehicle (ROV)</h3>
+                        <p class="project-category">Robotics</p>
+                        <p>Contributed in ROV designing and assembling in SCURT, responsible for sealing and assembling final body of ROV, and testing ROV before competition.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Waterproofing</span>
+                            <span class="tech-tag">Assembly Design</span>
+                            <span class="tech-tag">Marine Robotics</span>
+                        </div>
+                        <div class="project-achievements">
+                            <div class="achievement">✓ Waterproof design</div>
+                            <div class="achievement">✓ Competition participation</div>
+                            <div class="achievement">✓ System integration</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="automotive">
+                    <div class="project-image">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Assistive ECU for Disabled Drivers</h3>
+                        <p class="project-category">Automotive</p>
+                        <p>Developed assistive ECU targeting lower body disabilities by integrating a handle that controls car's acceleration, steering and braking for enhanced vehicle accessibility.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Embedded Systems</span>
+                            <span class="tech-tag">ECU Programming</span>
+                            <span class="tech-tag">Control Systems</span>
+                        </div>
+                        <div class="project-achievements">
+                            <div class="achievement">✓ Accessibility enhancement</div>
+                            <div class="achievement">✓ Integrated control system</div>
+                            <div class="achievement">✓ Safety compliance</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="manufacturing">
+                    <div class="project-image">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Cold Rolling Machine Prototype</h3>
+                        <p class="project-category">Manufacturing</p>
+                        <p>Designed and engineered Cold Rolling Machine Prototype for manufacturing and metal processing applications with focus on precision and efficiency.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Manufacturing Design</span>
+                            <span class="tech-tag">Metal Processing</span>
+                            <span class="tech-tag">SOLIDWORKS</span>
+                        </div>
+                        <div class="project-achievements">
+                            <div class="achievement">✓ Functional prototype</div>
+                            <div class="achievement">✓ Manufacturing optimization</div>
+                            <div class="achievement">✓ Process improvement</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Aug 2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Mechanical Design Engineer</h3>
+                        <h4>BlueTechNova - Cairo, Egypt</h4>
+                        <ul>
+                            <li>Designing marine rescue units</li>
+                            <li>Ship design specialization</li>
+                            <li>ISO standards compliance</li>
+                            <li>Testing and manufacturing oversight</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Aug 2025</div>
+                    <div class="timeline-content">
+                        <h3>Technical Office Intern</h3>
+                        <h4>Port Said Stadium - Port Said, Egypt</h4>
+                        <ul>
+                            <li>Electromechanical systems work</li>
+                            <li>Site works inspection</li>
+                            <li>Quality control</li>
+                            <li>Elevator installation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Jul 2025</div>
+                    <div class="timeline-content">
+                        <h3>Mechatronics Engineer Intern</h3>
+                        <h4>Suez Canal Authority Shipyard - Port Said, Egypt</h4>
+                        <ul>
+                            <li>Production training</li>
+                            <li>Ship building experience</li>
+                            <li>Electrical systems</li>
+                            <li>Mechanical production processes</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Oct 2024 - Jun 2025</div>
+                    <div class="timeline-content">
+                        <h3>Mechatronics Engineer</h3>
+                        <h4>Pest Scanner - Ismailia, Egypt</h4>
+                        <ul>
+                            <li>Modular robotic systems design</li>
+                            <li>Navigation algorithms enhancement</li>
+                            <li>Hardware integration optimization</li>
+                            <li>MVP development</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Leadership Section -->
-    <section id="leadership" class="section leadership">
+    <section id="leadership" class="leadership">
         <div class="container">
-            <h2 class="section__title">Leadership Experience</h2>
-            <div class="leadership__timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>Junior Design Engineer & Team Lead</h3>
-                        <div class="timeline-meta">
-                            <span class="company">TechCorp Industries</span>
-                            <span class="duration">2020 - Present</span>
+            <h2 class="section-title">Leadership & Achievements</h2>
+            
+            <div class="leadership-grid">
+                <div class="leadership-section">
+                    <h3>Leadership Roles</h3>
+                    <div class="leadership-items">
+                        <div class="leadership-item">
+                            <div class="leadership-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="leadership-content">
+                                <h4>Vice Team Leader</h4>
+                                <p>RALLY Society - Aug 2025</p>
+                                <span>Leading rally team activities and coordinating engineering projects</span>
+                            </div>
                         </div>
-                        <ul class="timeline-responsibilities">
-                            <li>Lead team of 12 engineers across 3 product lines</li>
-                            <li>Manage $2M annual R&D budget</li>
-                            <li>Implemented lean manufacturing principles, reducing waste by 30%</li>
-                            <li>Mentored 5 junior engineers, 3 promoted to Junior roles</li>
-                        </ul>
+
+                        <div class="leadership-item">
+                            <div class="leadership-icon">
+                                <i class="fas fa-steering-wheel"></i>
+                            </div>
+                            <div class="leadership-content">
+                                <h4>Head of Steering Committee</h4>
+                                <p>SCU Racing Team - Jan 2025 - Oct 2025</p>
+                                <span>Managing steering system development for racing vehicles</span>
+                            </div>
+                        </div>
+
+                        <div class="leadership-item">
+                            <div class="leadership-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <div class="leadership-content">
+                                <h4>Head of Mechanical Committee</h4>
+                                <p>Eccatronics Team - Oct 2024</p>
+                                <span>Overseeing mechanical design and development projects</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>Project Manager - Consumer Electronics</h3>
-                        <div class="timeline-meta">
-                            <span class="company">Innovation Labs</span>
-                            <span class="duration">2018 - 2020</span>
+                <div class="achievements-section">
+                    <h3>Competition Achievements</h3>
+                    <div class="achievement-items">
+                        <div class="achievement-item">
+                            <div class="achievement-medal">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>Rally Egypt</h4>
+                                <p>1st place university & 4th all over Egypt Finalist</p>
+                            </div>
                         </div>
-                        <ul class="timeline-responsibilities">
-                            <li>Managed cross-functional teams of 20+ members</li>
-                            <li>Delivered 8 products to market on time and under budget</li>
-                            <li>Established design for manufacturing guidelines</li>
-                            <li>Coordinated with suppliers across 3 countries</li>
-                        </ul>
-                    </div>
-                </div>
 
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>Process Improvement Specialist</h3>
-                        <div class="timeline-meta">
-                            <span class="company">Manufacturing Solutions Inc.</span>
-                            <span class="duration">2016 - 2018</span>
+                        <div class="achievement-item">
+                            <div class="achievement-medal">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>EVER 2024</h4>
+                                <p>3rd place overall dynamic track and 5th on overall Rating</p>
+                            </div>
                         </div>
-                        <ul class="timeline-responsibilities">
-                            <li>Led Six Sigma projects saving $500K annually</li>
-                            <li>Trained 15 engineers in lean methodologies</li>
-                            <li>Developed standardized design review processes</li>
-                            <li>Reduced product development cycle time by 25%</li>
-                        </ul>
+
+                        <div class="achievement-item">
+                            <div class="achievement-medal">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>AAKRUTI Global</h4>
+                                <p>Participated in 2024, 2025</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -407,25 +565,27 @@
     </section>
 
     <!-- Education Section -->
-    <section id="education" class="section education">
+    <section id="education" class="education">
         <div class="container">
-            <h2 class="section__title">Education</h2>
-            <div class="education__content">
-                <div class="education-card">
-                    <h3>Master of Science in Mechanical Engineering</h3>
-                    <div class="education-meta">
-                        <span class="university">Stanford University</span>
-                        <span class="year">2016</span>
-                        <span class="gpa">GPA: 3.8/4.0</span>
+            <h2 class="section-title">Education</h2>
+            <div class="education-content">
+                <div class="education-main">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
                     </div>
-                    <div class="relevant-courses">
-                        <h4>Relevant Coursework</h4>
-                        <div class="course-tags">
-                            <span class="course-tag">Advanced Machine Design</span>
-                            <span class="course-tag">Finite Element Analysis</span>
-                            <span class="course-tag">Manufacturing Processes</span>
-                            <span class="course-tag">Control Systems</span>
-                            <span class="course-tag">Materials Science</span>
+                    <div class="education-details">
+                        <h3>Bachelor of Technology in Mechatronics</h3>
+                        <h4>Egyptian Chinese College of Applied Technology, Suez Canal University</h4>
+                        <p class="education-period">2022 - 2026 (Expected)</p>
+                        <p class="education-gpa">GPA: 3.04/4.0 (76% Cumulative)</p>
+                        <div class="coursework">
+                            <h5>Relevant Coursework:</h5>
+                            <div class="course-tags">
+                                <span class="course-tag">CAD</span>
+                                <span class="course-tag">CNC</span>
+                                <span class="course-tag">Embedded Systems</span>
+                                <span class="course-tag">PLC Programming</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -434,50 +594,50 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section contact">
+    <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section__title">Get In Touch</h2>
-            <div class="contact__content">
-                <div class="contact__info">
-                    <h3>Let's Collaborate</h3>
-                    <p>I'm always interested in discussing new opportunities, innovative projects, and potential collaborations in mechanical design and engineering.</p>
-                    
-                    <div class="contact__details">
-                        <div class="contact-detail">
-                            <strong>Email:</strong> alex.thompson@email.com
-                        </div>
-                        <div class="contact-detail">
-                            <strong>Phone:</strong> (555) 123-4567
-                        </div>
-                        <div class="contact-detail">
-                            <strong>Location:</strong> San Francisco, CA
-                        </div>
-                        <div class="contact-detail">
-                            <strong>LinkedIn:</strong> 
-                            <a href="https://linkedin.com/in/alexthompson" target="_blank">linkedin.com/in/alexthompson</a>
-                        </div>
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>omarbasemm1@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+201229886552</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Port Said, Egypt</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/omarbasemm/" target="_blank">LinkedIn Profile</a>
                     </div>
                 </div>
-
-                <form class="contact__form">
-                    <div class="form-group">
-                        <label class="form-label" for="name">Full Name</label>
-                        <input type="text" id="name" name="name" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label class="form-label" for="email">Email Address</label>
-                        <input type="email" id="email" name="email" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label class="form-label" for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label class="form-label" for="message">Message</label>
-                        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
-                </form>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
@@ -485,9 +645,14 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Omar Basem. All rights reserved.</p>
+            <p>&copy; 2025 Omar Basem Abdulsalam. All rights reserved.</p>
         </div>
     </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <script src="app.js"></script>
 </body>
